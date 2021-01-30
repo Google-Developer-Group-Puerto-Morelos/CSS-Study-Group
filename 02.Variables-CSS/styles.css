@@ -1,0 +1,53 @@
+:root {
+	--font-size-card: 1rem;
+	--font-color-card: black;
+	--background-card: #FFF;
+	--border-color-card: #cecece;
+    --white-spaces: 1rem;
+    --font-family: Helvetica, san-serif;
+}
+
+
+body {
+    font-family: var(--font-family);
+}
+
+
+a {
+	color: inherit;
+}
+
+.dark {
+	--font-color-card: #FFF;
+	--background-card: #000;
+}
+
+.solarized {
+	--font-color-card: #523B2D;
+	--background-card: #F0DFB4;
+}
+
+.container {
+	width: 80%;
+	margin: 3rem auto;
+}
+
+.gdg-community-list {
+	display: grid;
+	grid-gap: 1rem;
+	gap: 1rem;
+}
+
+.card {
+	color: var(--font-color-card);
+	background-color: var(--background-card);
+	border-radius: 8px;
+	border: 1px solid var(--border-color-card);
+	padding: var(--white-spaces);
+	font-size: 1rem;
+}
+
+.card-gdg-lead {
+	font-size: calc(var(--font-size-card) * 3);
+	padding: calc(var(--white-spaces) * 2);
+}

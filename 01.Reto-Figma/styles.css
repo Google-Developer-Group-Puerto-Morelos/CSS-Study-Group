@@ -15,7 +15,6 @@ img {
     max-width: 100%;
 }
 
-
 .app {
     width: 35%;
     margin: 2rem auto;
@@ -23,7 +22,6 @@ img {
     background-color: #FFF;
     border-radius: 1.5rem;
 }
-
 
 .card {
     border-radius: 2rem;
@@ -58,11 +56,9 @@ img {
     grid-row: 2;
 }
 
-
 .card-hero {
     background-color: #ecf0fc;
 }
-
 
 .icon {
     padding: 1rem;
@@ -97,6 +93,7 @@ img {
     flex-shrink: 0;
 }
 
+
 .list-type li {
     background-color: #5581fb;
     text-align: center;
@@ -105,6 +102,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.list-type li:nth-child(2n) {
+    background-color: #fcccff;
+}
+
+.list-type li:nth-child(4n+7) {
+    background-color: yellow;
 }
 
 .nearby-list .card {

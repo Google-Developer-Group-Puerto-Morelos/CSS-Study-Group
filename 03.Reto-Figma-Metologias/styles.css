@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --succes-color: #198754;
+
+    --button-default-background: #FFF;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #232f2a;
+    font-family: Helvetica;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+[class^="button"] {
+    border-radius: .5rem;
+    background-color: var(--button-default-background);
+    border-color: #afafaf;
+    font-size: 1.3rem;
+    padding: 1rem .5rem;
+}
+
+.button--green {
+    --button-default-background: var(--succes-color);
+}
+
+.button--large {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.button--small {
+    padding: .5rem .3rem;
+    font-size: .8rem;
+}
+
+
+.navigation {
+    background-color: #FFF;
+    padding: 1rem 2rem;
+}
+
+.navigation--small {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.navigation__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation__item {
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__link {
+  color: inherit;
+  text-decoration: none;
+}
+.navigation__link:hover {
+    text-decoration: underline;
+}
+
+.navigation--dark {
+    background-color: rgb(24, 21, 21);
+    color: #fff;
+}

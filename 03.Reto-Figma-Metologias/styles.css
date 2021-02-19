@@ -7,7 +7,6 @@
 
 :root {
     --succes-color: #198754;
-
     --button-default-background: #FFF;
 }
 
@@ -86,4 +85,38 @@ img {
 .navigation--dark {
     background-color: rgb(24, 21, 21);
     color: #fff;
+}
+
+
+
+.margin-1 {
+    margin: 1rem;
+}
+
+.margin-2 {
+    margin: 2rem;
+}
+
+.margin-3 {
+    margin: 3rem;
+}
+
+.margin-top-1 {
+    margin-top: 1rem;
+}
+.margin-top-2 {
+    margin-top: 2rem;
+}
+.margin-top-3 {
+    margin-top: 3rem;
+}
+
+.margin-bottom-1 {
+    margin-bottom: 1rem;
+}
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+.margin-bottom-3 {
+    margin-bottom: 3rem;
 }
